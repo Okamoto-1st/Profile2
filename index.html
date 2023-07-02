@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="サンプルプロフィールサイトです">
+    <title>マイプロフィール</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="site-title">MyProfile</h1>
+            <nav>
+                <div class="navbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="header-navmenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#favorite">Favorite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-visual-container">
+            <img src="img/main.JPG" alt="バレーパークの景色">
+        </div>
+
+        <div id="about" class="about-container">
+            <h2>About</h2>
+            <div class="profile-box">
+                <div class="profile-img">
+                    <img src="img/about.JPG" alt="わたし">
+                </div>
+                <div class="profile-text">
+                    <h3>Hanako Suzuki(仮)</h3>
+                    <ul>
+                        <li>26歳　鹿児島県生まれ埼玉県育ち</li>
+                        <li>webデザイン未経験からスタート</li>
+                        <li>趣味は旅行・ドライブ</li>
+                        <li>日常を写真で切り取ることが好き</li>
+                        <li>ナチュラルな雰囲気を活かすWebページ作成を目指す</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div id="favorite" class="favorite-container">
+        <h2>Favorite</h2>
+        <div class="product-box">
+            <div class="product-item">
+                <div class="favorite-img">
+                    <img src="img/img1.JPG" alt="古戦場(Old Bttlefield)">
+                </div>
+                <div class="favorite-text">長野県旅行にて、古戦場は英語でそのまま Old Battlefield だったのが面白かった</div>
+            </div>
+            <div class="product-item">
+                <div class="favorite-img">
+                    <img src="img/img2.JPG" alt="御釜池">
+                </div>
+                <div class="favorite-text">忍野八海の御釜池。水が透き通っていて吸い込まれそうでした。</div>
+            </div>
+            <div class="product-item">
+                <div class="favorite-img">
+                    <img src="img/img3.JPG" alt="白川八幡神社">
+                </div>
+                    <div class="favorite-text">白川郷の城川八幡神社。アニメの聖地巡礼をしてきました。</div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="favorite-container">
+            <p class="copyright">&copy; MyProfile. All right reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
